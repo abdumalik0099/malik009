@@ -38,3 +38,152 @@
 .navbar-button:hover{
     background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
 }
+.ri-menu-line{
+    display: none;
+}
+.first-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.left-div{
+    margin-top: 130px;
+}
+.first-div h1{
+    font-size: 40px;
+    color: #2c2b35;
+}
+.first-div h4{
+    margin-top: 10px;
+    color: #2c2b35;
+}
+.first-btn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(168deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+.first-btn:hover{
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+@media (max-width: 428px) {
+.container {
+max-width:100%;
+padding: 0 10px;
+}
+.navbar-div{
+}
+.navbar-div ul, .navbar-button{
+    display: none;
+}
+.ri-menu-line{
+    display: block;
+    font-size: 30px;
+    align-items: center;
+    color: #43A548;
+}
+.left-div h1{
+    font-size: 35px;
+
+}  
+.left-div h4{
+    
+
+}
+.first-div{
+    display: block;
+}
+.first-div img{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+}
+
+.second-div{
+    display: flex;
+    justify-content: space-between;
+}
+.upravlenie{
+    width: 560px;
+    height: 250px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+.avtozakaz{
+    width: 560px;
+    height: 250px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+section{
+    display: flex;
+}
+.upravlenie section{
+    margin: 15px auto auto 15px;
+    align-items: center;
+    gap: 1rem;
+    color: #2c2b35;
+}
+.upravlenie p{
+    margin: 20px auto auto 15px;
+    color: #6f7973;
+}
+.second-btn{
+    margin: 30px auto auto 15px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.second-btn:hover{
+    background-color: #43A548;
+    color: #fff;
+}
+.avtozakaz section{
+    margin: 15px auto auto 15px;
+    align-items: center;
+    gap: 1rem;
+    color: #2c2b35;
+}
+.avtozakaz p{
+    margin: 20px auto auto 15px;
+    color: #6f7973;
+}
+.second-btn{
+    margin: 30px auto auto 15px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.second-btn:hover{
+    background-color: #43A548;
+    color: #fff;
+}
+
+@media (max-width: 428px) {
+.container {
+max-width:100%;
+padding: 0 10px;
+}
+.upravlenie h1{
+    font-size: 29px;
+}
+.second-div{
+    display: block;
+}
+.upravlenie{
+    width: 370px;
+    height: 320px;
+}
+.avtozakaz{
+    width: 370px;
+    height: 300px;
+}
+}

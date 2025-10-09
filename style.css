@@ -187,3 +187,226 @@ padding: 0 10px;
     height: 300px;
 }
 }
+.box3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.analiz{
+    width: 373px;
+    height: 320px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+.analiz p{
+    color: #6f7973;
+    margin: 20px auto auto 15px;
+}
+.analiz .podrobne{
+    margin: 40px auto auto 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.analiz .podrobne:hover{
+    color: #fff;
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+.prognoz{
+    width: 373px;
+    height: 320px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+.prognoz p{
+    color: #6f7973;
+    margin: 20px auto auto 15px;
+}
+.prognoz .podrobnee{
+    margin: 20px auto auto 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.prognoz .podrobnee:hover{
+    color: #fff;
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+.postavka{
+    width: 373px;
+    height: 320px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+.postavka p{
+    color: #6f7973;
+    margin: 20px auto auto 15px;
+}
+.postavka .podrobnee{
+    margin: 20px auto auto 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.postavka .podrobnee:hover{
+    color: #fff;
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+article{
+    display: flex;
+    gap: 1rem;
+    margin: 15px auto auto 15px;
+    align-items: center;
+    gap: 1rem;
+    color: #2c2b35;
+}
+article h1{
+    align-items: center;
+    font-size: 26px;
+}
+@media (max-width: 428px) {
+.container {
+max-width:100%;
+padding: 0 10px; 
+}
+    .box3{
+        display: block;
+    }
+}
+
+.box2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.assortiment section{
+    margin: 15px auto auto 15px;
+    align-items: center;
+    gap: 1rem;
+    color: #2c2b35;
+}
+.assortiment p{
+    margin: 20px auto auto 15px;
+    color: #6f7973;
+}
+.assortiment button{
+    margin: 20px auto auto 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.assortiment button:hover{
+    color: #fff;
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+.prodaja section{
+    margin: 15px auto auto 15px;
+    align-items: center;
+    gap: 1rem;
+    color: #2c2b35;
+}
+.prodaja p{
+    margin: 20px auto auto 15px;
+    color: #6f7973;
+}
+.prodaja button{
+    margin: 20px auto auto 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.prodaja button:hover{
+    color: #fff;
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+.assortiment{
+    width: 560px;
+    height: 250px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+
+.prodaja{
+    width: 560px;
+    height: 250px;
+    background-color: #eeeeeeee;
+    border-radius: 25px;
+}
+@media (max-width: 428px) {
+.container {
+max-width:100%;
+padding: 0 10px; 
+}
+    .box2{
+        display: block;
+    }
+    .assortiment{
+       width: 380px;
+       height: auto;
+    }
+    .prodaja{
+        width: 380px;
+        height: auto;
+    }
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: #EBF5EB;
+    border-radius: 20px;
+    margin-top: 20PX;
+    align-items: center;
+}
+
+.podarok{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    gap: 1rem;
+}
+.podarok img, h2{
+    margin-top: 0px;
+    color: #43A548;
+} 
+.butt button{
+    margin-right: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid #43A548;
+    color: #43A548;
+    transition: 0.3s;
+}
+.butt button:hover{
+    color: #fff;
+    background: linear-gradient(346deg,rgba(67, 165, 72, 1) 50%, rgba(82, 226, 89, 1) 74%);
+}
+@media (max-width: 428px) {
+    .container {
+    max-width:100%;
+    padding: 0 10px; 
+}
+    .box1{
+        display: block;
+        margin-top: 30px;
+    }
+    .butt{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .butt button{
+        padding: 10px 90px;
+    }
+}
